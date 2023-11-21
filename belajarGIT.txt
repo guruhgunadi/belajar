@@ -1,0 +1,18 @@
+Dokumentasi GIT
+
+untuk mengecek versi git yang terinstall do local computer
+git --version
+
+configurasi git
+git config --global user.name "guruh gunadi"
+git config --global user.email "guruhgunadi41@gmail.com"
+
+melihat seluruh configurasi
+git config --list --show-origin
+
+membuat repository
+git init (dilakukan di dalam folder yang akan di jadikan repository)
+
+untuk melihat ada update atau tidak
+git status
+
