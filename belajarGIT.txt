@@ -6,6 +6,9 @@ $git --version
 configurasi git
 $git config --global user.name "guruhgunadi"
 $git config --global user.email "guruhgunadi41@gmail.com"
+ssh-keygen -t rsa
+less /c/Users/GSP016/.ssh/id_rsa.pub
+masukan key tsb ke github di setting pilih new SSH key
 
 melihat seluruh configurasi
 $git config --list --show-origin
