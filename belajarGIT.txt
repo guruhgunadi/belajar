@@ -16,3 +16,20 @@ git init (dilakukan di dalam folder yang akan di jadikan repository)
 untuk melihat ada update atau tidak
 git status
 
+memindahkan ke staging index
+membuat file belajarGIT.txt di folder belajarGIT
+git status
+(bila belajarGIT.txt warna merah berarti file tsb masih berada di working dir
+
+git add belajarGIT.txt
+git status
+(bila belajarGIT.txt warna hijau berarti file tsb sdh berada di staging index
+
+disimpan secara permanent ke repository
+git commit -m "menambah belajarGIT.txt"
+
+melakukan perubahan
+langsung perubahan di file workfir nya kemuadian git status
+
+melihat perubahan
+git diff
