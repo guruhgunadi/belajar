@@ -36,3 +36,9 @@ git diff
 
 melihat log
 git log
+
+cara push file ke repositoy
+1. git add file
+2. git commit -u "komen file"
+3. git remote add origin git@github.com:guruhgunadi/belajar.git
+4. git push -u origin master
