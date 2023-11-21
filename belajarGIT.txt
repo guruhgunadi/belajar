@@ -1,44 +1,53 @@
 Dokumentasi GIT
 
 untuk mengecek versi git yang terinstall do local computer
-git --version
+$git --version
 
 configurasi git
-git config --global user.name "guruh gunadi"
-git config --global user.email "guruhgunadi41@gmail.com"
+$git config --global user.name "guruhgunadi"
+$git config --global user.email "guruhgunadi41@gmail.com"
 
 melihat seluruh configurasi
-git config --list --show-origin
+$git config --list --show-origin
 
 membuat repository
-git init (dilakukan di dalam folder yang akan di jadikan repository)
+1. $git init (dilakukan di dalam folder yang akan di jadikan repository)
+2. buka github.com dan login (create new repository (nama repository harus sama dengan nama folder di lokal)
 
 untuk melihat ada update atau tidak
-git status
+$git status
 
 memindahkan ke staging index
-membuat file belajarGIT.txt di folder belajarGIT
-git status
+- membuat file belajarGIT.txt di folder belajarGIT
+$git status
 (bila belajarGIT.txt warna merah berarti file tsb masih berada di working dir
 
-git add belajarGIT.txt
-git status
-(bila belajarGIT.txt warna hijau berarti file tsb sdh berada di staging index
+$git add belajarGIT.txt
+$git status
+(bila belajarGIT.txt warna hijau berarti file tsb sdh berada di staging index)
 
 disimpan secara permanent ke repository
-git commit -m "menambah belajarGIT.txt"
+$git commit -m "menambah belajarGIT.txt"
 
 melakukan perubahan
 langsung perubahan di file workfir nya kemuadian git status
 
 melihat perubahan
-git diff
+$git diff
 
 melihat log
-git log
+$git log
 
 cara push file ke repositoy
-1. git add file
-2. git commit -u "komen file"
-3. git remote add origin git@github.com:guruhgunadi/belajar.git
-4. git push -u origin master
+1. $git add file
+2. $git commit -u "komen file"
+3. $git remote add origin git@github.com:guruhgunadi/belajar.git
+4. $git push -u origin master
+
+menambah kolabolator
+1.masuk ke file repository 
+2.masuk ke setting
+3.masuk ke collabolators
+4.add people (masukan email)
+
+
