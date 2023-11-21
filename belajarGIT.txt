@@ -33,3 +33,6 @@ langsung perubahan di file workfir nya kemuadian git status
 
 melihat perubahan
 git diff
+
+melihat log
+git log
